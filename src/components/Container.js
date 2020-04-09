@@ -51,7 +51,7 @@ class Container extends Component {
 
                 <h1>update count:</h1>
                 <button onClick={this.handleClick} >Updating Count</button>
-
+                {/* <button onClick={() => this.props.testCase1(this.state.count)}>Updating Count</button> */}
                 <h1>update testCaseAdd:</h1>
                 <button onClick={() => this.props.testCaseAdd(this.state.obj)} >Test Case Add</button>
 
